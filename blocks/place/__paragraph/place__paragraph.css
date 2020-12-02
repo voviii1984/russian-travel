@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../../Inter-3.15/InterWeb/Inter-Regular.woff2") format("woff2"),
+       url("../../../Inter-3.15/InterWeb/Inter-Regular.woff") format("woff");
+}
+
+.place__paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+  color: #FFFFFF; 
+  -webkit-font-smoothing: antialiased; 
+}
+
+.place__paragraph:nth-of-type(2n) {
+  padding-top: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 90vw;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 90vw;
+    margin: auto;
+  }
+}

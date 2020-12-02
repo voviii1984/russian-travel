@@ -1,0 +1,33 @@
+.place__image{
+  padding-top: 4px;
+  width: 460px;
+  height: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__image {
+    width: calc(100vw - 584px);
+    height: calc(100vw - 584px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: calc(100vw - 428px);
+    height: calc(100vw - 428px);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__image {
+    width: 100vw;
+    height: 100vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    width: 100vw;
+    height: 100vw;
+  }
+}

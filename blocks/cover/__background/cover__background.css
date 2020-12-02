@@ -1,0 +1,32 @@
+.cover__background {
+  background-image: url(../../../images/cover-baikal.jpg);
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  position: relative;
+  width: 1184px;
+  height: 740px;
+  object-fit: cover;
+}
+
+.cover__background::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover__background:hover::after {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1184px) {
+  .cover__background {
+    width: 100vw;
+    height: 62.5vw;
+  }
+}
