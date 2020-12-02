@@ -5,20 +5,13 @@
   margin: auto;
   margin-top: 93px;
   padding-bottom: 24px;
-  max-width: 1184px;
+  width: calc(100% - 96px);
   min-height: 18px;
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: 90.625vw;
-    
-  }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: 93.75vw;
+    width: calc(100% - 48px);
     margin-top: 90px;
   }
 }
