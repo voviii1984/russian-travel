@@ -5,7 +5,7 @@
   padding-bottom: 5px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 530px) {
   .place__website {
     display: none;
   }
