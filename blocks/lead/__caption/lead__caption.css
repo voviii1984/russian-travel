@@ -22,9 +22,3 @@
     margin-left: 16px;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .lead__caption {
-    margin-left: 16px;
-  }
-}

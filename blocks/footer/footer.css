@@ -6,7 +6,6 @@
   margin-top: 93px;
   padding-bottom: 24px;
   width: calc(100% - 96px);
-  min-height: 18px;
 }
 
 @media screen and (max-width: 768px) {
@@ -16,9 +15,17 @@
   }
 }
 
+@media screen and (max-width: 693px) {
+  .footer {
+    width: calc(100% - 38px);
+    margin-top: 90px;
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .footer {
-    max-width: 90vw;
+    width: 90vw;
     align-items: start;
     flex-direction: column;
     margin-top: 64px;
@@ -27,9 +34,6 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: 90vw;
-    align-items: start;
-    flex-direction: column;
     margin-top: 67px;
   }
 }

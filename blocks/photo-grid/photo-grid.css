@@ -28,11 +28,3 @@
     grid-template-columns: 90vw;
   }
 }
-
-@media screen and (max-width: 320px) {
-  .photo-grid {
-    gap: 12px;
-    margin-top: 64px;
-    grid-template-columns: 90vw;
-  }
-}

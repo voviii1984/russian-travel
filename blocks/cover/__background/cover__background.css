@@ -1,4 +1,4 @@
-.cover_background {
+.cover__background {
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
@@ -7,9 +7,10 @@
   max-width: 1184px;
   height: 740px;
   object-fit: cover;
+  margin: auto;
 }
 
-.cover_background::after {
+.cover__background::after {
     content: '';
     position: absolute;
     top: 0;
@@ -20,12 +21,12 @@
     opacity: 0.3;
 }
 
-.cover_background:hover::after {
+.cover__background:hover::after {
     opacity: 0.8;
 }
 
 @media screen and (max-width: 1200px) {
-  .cover_background {
+  .cover__background {
     max-width: 100vw;
     max-height: 62.5vw;
   }

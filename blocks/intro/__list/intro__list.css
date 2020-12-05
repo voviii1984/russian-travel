@@ -6,5 +6,7 @@
   line-height: 18px;
   color: #FFFFFF;
   margin: 0;
+  padding: 0;
   letter-spacing: -0.009em;
+  list-style: none;
 }

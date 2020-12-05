@@ -9,10 +9,6 @@
   margin-right: 14px;
 }
 
-.footer__link:last-of-type {
-  margin-right: 0;
-}
-
 .footer__link:hover {
   opacity: 0.8;
 }
@@ -24,21 +20,4 @@
     line-height: 24px;
     margin-bottom: 32px;
   }
-
-  .footer__link:last-of-type {
-    margin-bottom: 0;
-  }  
-}
-
-@media screen and (max-width: 320px) {
-  .footer__link {
-    display: flex;
-    font-size: 24px;
-    line-height: 24px;
-    margin-bottom: 32px;
-  }
-
-  .footer__link:last-of-type {
-    margin-bottom: 0;
-  }  
 }
